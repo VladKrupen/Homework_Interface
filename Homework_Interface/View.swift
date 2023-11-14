@@ -133,7 +133,13 @@ class View: UIView, UITextFieldDelegate {
         return true
     }
 
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        delegate?.displayTexts(firstText: firstTextField.text ?? "", secondText: middleTextField.text ?? "", thirdText: lastTextField.text ?? "")
+    }
     
+    func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
+        delegate?.displayTexts(firstText: firstTextField.text ?? "", secondText: middleTextField.text ?? "", thirdText: lastTextField.text ?? "")
+    }
     
     
     
