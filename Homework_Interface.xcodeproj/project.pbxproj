@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01066B412B0523A900A0A6C5 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B402B0523A900A0A6C5 /* NotesView.swift */; };
+		01066B632B052D3E00A0A6C5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B622B052D3E00A0A6C5 /* ButtonView.swift */; };
 		0137D3F42B00D8CD001EC3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137D3F32B00D8CD001EC3F1 /* AppDelegate.swift */; };
 		0137D3F62B00D8CD001EC3F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137D3F52B00D8CD001EC3F1 /* SceneDelegate.swift */; };
 		0137D3F82B00D8CD001EC3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137D3F72B00D8CD001EC3F1 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01066B402B0523A900A0A6C5 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		01066B622B052D3E00A0A6C5 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		0137D3F02B00D8CD001EC3F1 /* Homework_Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework_Interface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0137D3F32B00D8CD001EC3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0137D3F52B00D8CD001EC3F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				0137D3F52B00D8CD001EC3F1 /* SceneDelegate.swift */,
 				0137D3F72B00D8CD001EC3F1 /* ViewController.swift */,
 				0137D4072B00D98A001EC3F1 /* View.swift */,
+				01066B402B0523A900A0A6C5 /* NotesView.swift */,
+				01066B622B052D3E00A0A6C5 /* ButtonView.swift */,
 				0137D3F92B00D8CD001EC3F1 /* Main.storyboard */,
 				0137D3FC2B00D8CF001EC3F1 /* Assets.xcassets */,
 				0137D3FE2B00D8CF001EC3F1 /* LaunchScreen.storyboard */,
@@ -143,6 +149,8 @@
 			files = (
 				0137D4082B00D98A001EC3F1 /* View.swift in Sources */,
 				0137D3F82B00D8CD001EC3F1 /* ViewController.swift in Sources */,
+				01066B632B052D3E00A0A6C5 /* ButtonView.swift in Sources */,
+				01066B412B0523A900A0A6C5 /* NotesView.swift in Sources */,
 				0137D3F42B00D8CD001EC3F1 /* AppDelegate.swift in Sources */,
 				0137D3F62B00D8CD001EC3F1 /* SceneDelegate.swift in Sources */,
 			);
