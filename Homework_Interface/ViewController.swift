@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, ViewDelegate, ButtonViewDelegate, NotesViewDelegate {
+class ViewController: UIViewController {
     
     let customView = {
         let customView = View()
@@ -59,12 +59,17 @@ class ViewController: UIViewController, ViewDelegate, ButtonViewDelegate, NotesV
         
     }
     
+}
+
+extension ViewController: ViewDelegate {
     func displayTexts(firstText: String, secondText: String, thirdText: String) {
         print(firstText)
         print(secondText)
         print(thirdText)
     }
-    
+}
+
+extension ViewController: ButtonViewDelegate {
     func buttonSavePressed(_ sender: ButtonView) {
         print(customView.firstTextField.text ?? "")
         print(customView.middleTextField.text ?? "")
@@ -81,10 +86,10 @@ class ViewController: UIViewController, ViewDelegate, ButtonViewDelegate, NotesV
     func buttonClearPressed(_ sender: ButtonView) {
         notesView.notes.text = "Notes: "
     }
-    
+}
+
+extension ViewController: NotesViewDelegate {
     func displayTextView(text: String) {
         print(text)
     }
-    
-    
 }
